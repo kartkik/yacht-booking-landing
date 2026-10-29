@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title id="page-title">Yacht Charter Details | Elite Rentals Kerala</title>
+  <meta name="description" id="page-meta-desc"
+    content="Charter private luxury yachts in Kerala. Complete specifications, transparent rates, routes, and instant WhatsApp booking with Elite Rentals Kerala." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#b08a3e" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" id="og-title" content="Yacht Charter Details | Elite Rentals Kerala" />
+  <meta property="og:description" id="og-desc" content="Charter private luxury yachts in Kerala." />
+  <meta property="og:site_name" content="Elite Rentals Kerala" />
+
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="./assets/kochi-yacht-sunset.jpg" />
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       1. STICKY TOP NAVBAR
+       ========================================================================== -->
+  <header class="header-wrapper" id="site-header">
+    <div class="container header-inner">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-link" aria-label="Elite Rentals Kerala Homepage">
+        <img src="./assets/kochi-yacht-sunset.jpg" alt="Elite Rentals Kerala Emblem" class="brand-emblem" />
+        <div class="brand-text-col">
+          <span class="brand-title">Elite Rentals <span class="text-gold">Kerala</span></span>
+          <span class="brand-sub">First Class Yachting & Backwaters</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="index.html#fleet-section" class="nav-item-link">All Yachts</a>
+        <a href="index.html#comfort-class-sec" class="nav-item-link">Comfort Class</a>
+        <a href="index.html#comfort-plus-sec" class="nav-item-link">Heritage & Catamarans</a>
+        <a href="index.html#business-class-sec" class="nav-item-link">Business Class</a>
+        <a href="index.html#first-class-sec" class="nav-item-link">Superyachts</a>
+        <a href="index.html#reviews-section" class="nav-item-link">Reviews</a>
+        <a href="index.html#faq-section" class="nav-item-link">FAQ</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Currency Dropdown -->
+        <div class="currency-picker-wrap">
+          <button type="button" class="currency-btn" id="currency-btn" aria-label="Select Currency">
+            <span id="current-currency-display">INR</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="currency-menu" id="currency-menu">
+            <button type="button" class="currency-option active" data-curr="INR">INR (₹ Rupee)</button>
+            <button type="button" class="currency-option" data-curr="USD">USD ($ Dollar)</button>
+            <button type="button" class="currency-option" data-curr="AED">AED (Dirham)</button>
+            <button type="button" class="currency-option" data-curr="EUR">EUR (€ Euro)</button>
+            <button type="button" class="currency-option" data-curr="GBP">GBP (£ Pound)</button>
+          </div>
+        </div>
+
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="whatsapp-header-btn"
+          aria-label="Contact us on WhatsApp">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path
+              d="M20.52 3.48A11.87 11.87 0 0 0 12 0a11.94 11.94 0 0 0-10.3 17.94L0 24l6.24-1.63A11.93 11.93 0 0 0 12 23.94c6.63 0 12-5.37 12-12a11.87 11.87 0 0 0-3.48-8.46zM12 22.02a10.06 10.06 0 0 1-5.14-1.4l-.37-.22-3.7.97.99-3.61-.24-.37A10.05 10.05 0 1 1 22.05 12 10 10 0 0 1 12 22.02zm5.53-7.51c-.3-.15-1.77-.87-2.05-.97s-.47-.15-.67.15-.77.97-.94 1.17-.35.22-.65.07a8.19 8.19 0 0 1-2.41-1.49 9.06 9.06 0 0 1-1.68-2.09c-.17-.3 0-.46.13-.61.13-.13.3-.35.44-.52a2 2 0 0 0 .3-.5.55.55 0 0 0 0-.52c-.07-.15-.67-1.6-.92-2.19s-.49-.5-.67-.51h-.57a1.1 1.1 0 0 0-.8.37 3.36 3.36 0 0 0-1.04 2.5 5.85 5.85 0 0 0 1.22 3.09 13.35 13.35 0 0 0 5.11 4.51 17 17 0 0 0 1.7.63 4.1 4.1 0 0 0 1.89.12 3.1 3.1 0 0 0 2.02-1.42 2.5 2.5 0 0 0 .17-1.42c-.07-.13-.27-.2-.57-.35z" />
+          </svg>
+          <span>WhatsApp us</span>
+        </a>
+
+        <!-- Mobile Hamburger -->
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Open Mobile Menu">
+          <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 6h14M3 10h14M3 14h14" stroke-linecap="round"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <span class="brand-title">Elite Rentals <span class="text-gold">Kerala</span></span>
+        <button type="button" class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close Menu">&times;</button>
+      </div>
+
+      <!-- Currency Switcher in Drawer -->
+      <div class="mobile-currency-row">
+        <button type="button" class="mobile-curr-pill active" data-curr="INR">INR</button>
+        <button type="button" class="mobile-curr-pill" data-curr="USD">USD</button>
+        <button type="button" class="mobile-curr-pill" data-curr="AED">AED</button>
+        <button type="button" class="mobile-curr-pill" data-curr="EUR">EUR</button>
+        <button type="button" class="mobile-curr-pill" data-curr="GBP">GBP</button>
+      </div>
+
+      <div class="mobile-nav-list">
+        <a href="index.html#fleet-section" class="mobile-nav-link">Full Yacht Fleet</a>
+        <a href="index.html#comfort-class-sec" class="mobile-nav-link">Comfort Class</a>
+        <a href="index.html#comfort-plus-sec" class="mobile-nav-link">Heritage & Catamarans</a>
+        <a href="index.html#business-class-sec" class="mobile-nav-link">Business Class</a>
+        <a href="index.html#first-class-sec" class="mobile-nav-link">First Class Superyachts</a>
+        <a href="index.html#experience-section" class="mobile-nav-link">VIP Services</a>
+        <a href="index.html#reviews-section" class="mobile-nav-link">Guest Reviews</a>
+        <a href="index.html#faq-section" class="mobile-nav-link">Frequently Asked Questions</a>
+      </div>
+
+      <div style="margin-top:auto; padding-top:1.5rem;">
+        <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="btn-modal-whatsapp"
+          style="text-align:center; display:flex;">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path
+              d="M20.52 3.48A11.87 11.87 0 0 0 12 0a11.94 11.94 0 0 0-10.3 17.94L0 24l6.24-1.63A11.93 11.93 0 0 0 12 23.94c6.63 0 12-5.37 12-12a11.87 11.87 0 0 0-3.48-8.46z" />
+          </svg>
+          Chat with Charter Specialist
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main class="detail-main-wrapper">
+    <div class="container">
+
+      <!-- Breadcrumbs -->
+      <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+        <a href="index.html" class="breadcrumb-link">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <a href="index.html#fleet-section" class="breadcrumb-link">Yachts</a>
+        <span class="breadcrumb-sep">/</span>
+        <a href="index.html#comfort-class-sec" class="breadcrumb-link" id="breadcrumb-category">Comfort Class</a>
+        <span class="breadcrumb-sep">/</span>
+        <span class="breadcrumb-current" id="breadcrumb-yacht-name">Azura 65 Fort Kochi Motor Yacht</span>
+      </nav>
+
+      <!-- Detail Header Block -->
+      <div class="detail-header-row">
+        <div class="detail-title-col">
+          <span class="detail-cat-badge" id="detail-category-badge">Comfort Class</span>
+          <h1 class="detail-yacht-title" id="detail-yacht-name">Azura 65 Fort Kochi Motor Yacht</h1>
+          <div class="detail-meta-specs">
+            <span id="detail-meta-length">20 m (65 ft)</span>
+            <span class="detail-meta-dot">·</span>
+            <span id="detail-meta-guests">Up to 15 Guests</span>
+            <span class="detail-meta-dot">·</span>
+            <span id="detail-meta-departure">Bolgatty Marina & Fort Kochi</span>
+            <span class="detail-meta-dot">·</span>
+            <span style="color:#059669; font-weight:700;">Captain & Crew Included</span>
+          </div>
+        </div>
+
+        <div class="detail-header-actions">
+          <button type="button" class="btn-detail-action" id="btn-share-yacht">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3v13M7 8l5-5 5 5M5 15v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4" />
+            </svg>
+            <span>Share</span>
+          </button>
+          <a href="index.html#fleet-section" class="btn-detail-action">
+            <svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5l-5 5 5 5" />
+            </svg>
+            <span>All Fleet</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 5-Photo Luxury Gallery Showcase -->
+      <div class="detail-gallery-showcase" id="gallery-showcase">
+        <div class="gallery-tile gallery-tile-main" data-photo-idx="0">
+          <img src="./assets/kochi-yacht-sunset.jpg" alt="Featured Photo" id="gallery-img-0" />
+        </div>
+        <div class="gallery-tile gallery-tile-2" data-photo-idx="1">
+          <img src="./assets/kerala-yacht-salon.jpg" alt="Interior Photo" id="gallery-img-1" />
+        </div>
+        <div class="gallery-tile gallery-tile-3" data-photo-idx="2">
+          <img src="./assets/kerala-yacht-dining.jpg" alt="Dining Photo" id="gallery-img-2" />
+        </div>
+        <div class="gallery-tile gallery-tile-4" data-photo-idx="3">
+          <img src="./assets/hero-kerala-yacht.jpg" alt="Aerial Photo" id="gallery-img-3" />
+        </div>
+        <div class="gallery-tile gallery-tile-5" data-photo-idx="4">
+          <img src="./assets/bolgatty-marina-yacht.jpg" alt="Marina Photo" id="gallery-img-4" />
+        </div>
+
+        <!-- Floating View All Photos Button -->
+        <button type="button" class="btn-view-all-photos" id="btn-open-lightbox">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          <span id="gallery-photos-count-label">View all 28 photos</span>
+        </button>
+      </div>
+
+      <!-- 2-Column Content Layout -->
+      <div class="detail-content-layout">
+
+        <!-- LEFT COLUMN: Narrative, Amenities, Routes, FAQs -->
+        <div class="detail-main-col">
+
+          <!-- Advisor Banner Card -->
+          <div class="advisor-card">
+            <div class="advisor-avatar-box">
+              <img src="./assets/kerala-yacht-salon.jpg" alt="Charter Advisor Anjali Menon" />
+              <span class="advisor-badge-online" title="Online now"></span>
+            </div>
+            <div class="advisor-body">
+              <div class="advisor-name-row">
+                <span class="advisor-name">Anjali Menon</span>
+                <span class="advisor-verified">✓ Senior Charter Manager</span>
+              </div>
+              <p class="advisor-bio">
+                With Elite Rentals since 2019 and 15+ years of luxury maritime experience across Kerala. Anjali personally confirms availability, tailors coastal menus, and provides a firm quote in minutes.
+              </p>
+              <div class="advisor-ctas">
+                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="btn-advisor-wa">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                    <path
+                      d="M20.52 3.48A11.87 11.87 0 0 0 12 0a11.94 11.94 0 0 0-10.3 17.94L0 24l6.24-1.63A11.93 11.93 0 0 0 12 23.94c6.63 0 12-5.37 12-12a11.87 11.87 0 0 0-3.48-8.46z" />
+                  </svg>
+                  <span>WhatsApp Anjali</span>
+                </a>
+                <a href="tel:+919876543210" class="btn-advisor-call">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                  <span>Call Concierge</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- The Yacht Experience Card -->
+          <div class="detail-section-block">
+            <h2 class="detail-section-title" id="narrative-heading">
+              The Azura 65 Fort Kochi Experience
+            </h2>
+            <div class="detail-narrative" id="narrative-content">
+              <p>
+                The Azura 65 is a premier comfort-class motor yacht berthed year-round at Bolgatty Marina Yacht Club in Kochi. Meticulously engineered for both open ocean coastal waters and sheltered backwater cruising, it offers European luxury with authentic Kerala maritime hospitality.
+              </p>
+              <p>
+                Guests board within minutes of arrival, welcomed with chilled fresh tender coconut water and scented cold towels. The crew handles luggage and delivers an effortless safety briefing before pushing off past the historic Chinese fishing nets, Willingdon Island, and into the Arabian Sea sunset.
+              </p>
+            </div>
+
+            <!-- Specifications Grid -->
+            <div class="detail-specs-grid">
+              <div class="spec-cell">
+                <span class="spec-cell-label">Length</span>
+                <span class="spec-cell-value" id="spec-length">20 Metres (65 ft)</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-cell-label">Cruising Capacity</span>
+                <span class="spec-cell-value" id="spec-guests">15 Guests</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-cell-label">Staterooms</span>
+                <span class="spec-cell-value" id="spec-cabins">2 Luxury Staterooms</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-cell-label">Bathrooms</span>
+                <span class="spec-cell-value" id="spec-baths">2 En-suite Bathrooms</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-cell-label">Cruising Speed</span>
+                <span class="spec-cell-value" id="spec-speed">22 Knots</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-cell-label">Home Berth</span>
+                <span class="spec-cell-value" id="spec-berth">Bolgatty Marina, Kochi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Included Amenities & Features -->
+          <div class="detail-section-block">
+            <h3 class="detail-section-title">Included Amenities & Services</h3>
+            <div class="amenities-2col-list">
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Professional Certified Marine Captain</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Uniformed Marine Stewards & Deck Crew</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Full Marine Fuel for Scheduled Route</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Unlimited Fresh Tender Coconut Water & Ice</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Air Conditioned Glass Saloon & Master Suite</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Bose Bluetooth Surround Sound Audio</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Teak Sunbeds & Flybridge Observation Deck</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Hydraulic Swimming Platform & Ladder</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Certified Life Jackets & Marine Safety Gear</span>
+              </div>
+              <div class="amenity-item">
+                <svg class="amenity-icon-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Full Marine Liability Insurance & Port Clearance</span>
+              </div>
+            </div>
+
+            <!-- Optional Tailored Addons -->
+            <h4 style="font-size:1.05rem; font-weight:800; color:var(--ink-heading); margin-top:2rem; margin-bottom:0.75rem;">
+              Customizable On-Board Add-ons
+            </h4>
+            <div class="amenities-2col-list">
+              <div class="amenity-item">
+                <span class="amenity-icon-plus">+</span>
+                <span>Private Chef Live Kerala Coastal BBQ (₹8,500)</span>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-icon-plus">+</span>
+                <span>Fresh Karimeen Pollichathu & Seafood Platter (₹3,500)</span>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-icon-plus">+</span>
+                <span>Yamaha Jet Ski / Speedboat Tender 1 Hour (₹6,000)</span>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-icon-plus">+</span>
+                <span>Traditional Acoustic & Music Setup (₹10,000)</span>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-icon-plus">+</span>
+                <span>VIP Chauffeur Transfer in Mercedes Maybach (₹5,000)</span>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-icon-plus">+</span>
+                <span>Professional Drone Video & Photo Coverage (₹7,500)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Popular Cruising Routes from Kochi & Backwaters -->
+          <div class="detail-section-block">
+            <h3 class="detail-section-title">Popular Cruising Routes</h3>
+            <div class="routes-showcase-grid">
+              <div class="route-card-item">
+                <div class="route-header-row">
+                  <span class="route-title">Fort Kochi Heritage & Chinese Nets</span>
+                  <span class="route-duration-pill">2 Hours</span>
+                </div>
+                <p style="font-size:0.86rem; color:var(--gray); line-height:1.45;">
+                  The quintessential Kochi harbour loop. Gliding past Bolgatty Palace, Willingdon Island, the ancient Chinese fishing nets, and out into the open sunset lagoon.
+                </p>
+                <div class="route-highlights-list">
+                  <span class="route-highlight-tag">⚓ Bolgatty Marina</span>
+                  <span class="route-highlight-tag">🏯 Historic Chinese Nets</span>
+                  <span class="route-highlight-tag">🌅 Sunset Lagoon</span>
+                </div>
+              </div>
+
+              <div class="route-card-item">
+                <div class="route-header-row">
+                  <span class="route-title">Vembanad Lagoon & Island Anchorage</span>
+                  <span class="route-duration-pill">3 - 4 Hours</span>
+                </div>
+                <p style="font-size:0.86rem; color:var(--gray); line-height:1.45;">
+                  Extended cruise along the tranquil backwaters toward Kumarakom. Drop anchor in calm waters for deep-water swimming, fresh coastal dining, and champagne toast.
+                </p>
+                <div class="route-highlights-list">
+                  <span class="route-highlight-tag">🏊 Swimming Anchorage</span>
+                  <span class="route-highlight-tag">🌴 Palm-Lined Lagoons</span>
+                  <span class="route-highlight-tag">🐬 Dolphin Spotting</span>
+                </div>
+              </div>
+
+              <div class="route-card-item">
+                <div class="route-header-row">
+                  <span class="route-title">Alleppey Full-Day Backwater Expedition</span>
+                  <span class="route-duration-pill">8 Hours (Full Day)</span>
+                </div>
+                <p style="font-size:0.86rem; color:var(--gray); line-height:1.45;">
+                  The ultimate VIP Kerala charter. Cruise through Vembanad Lake into the world-famous backwaters of Alappuzha, with private island stops and on-board chef banquets.
+                </p>
+                <div class="route-highlights-list">
+                  <span class="route-highlight-tag">🍲 On-Board Chef Banquet</span>
+                  <span class="route-highlight-tag">🏝️ Private Island Stop</span>
+                  <span class="route-highlight-tag">📸 Drone Videography</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Occasions This Yacht Fits Best -->
+          <div class="detail-section-block">
+            <h3 class="detail-section-title">Occasions This Yacht Fits Best</h3>
+            <div class="occasions-pills-wrap">
+              <span class="occasion-pill">🌅 Sunset Golden Hour Cruises</span>
+              <span class="occasion-pill">🎂 Birthday Celebrations</span>
+              <span class="occasion-pill">💍 Marriage Proposals & Romance</span>
+              <span class="occasion-pill">🥂 25th / 50th Anniversaries</span>
+              <span class="occasion-pill">💼 Executive Leadership Retreats</span>
+              <span class="occasion-pill">🎬 Cinematic Film & Photo Shoots</span>
+              <span class="occasion-pill">🌴 Family Backwater Gatherings</span>
+            </div>
+          </div>
+
+          <!-- Yacht Specific FAQ Accordion -->
+          <div class="detail-section-block">
+            <h3 class="detail-section-title">Frequently Asked Questions</h3>
+            <div class="faq-list">
+              <div class="faq-card">
+                <button type="button" class="faq-question-btn">
+                  <span>How much does it cost to charter this yacht?</span>
+                  <svg class="faq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="faq-answer-pane">
+                  <div class="faq-answer-inner" id="faq-cost-ans">
+                    Charter rates start from ₹25,000 per hour with discounts for 4-hour half-day (₹95,000) and 8-hour full-day bookings (₹1,70,000). Every quote is fully inclusive of captain, crew, marine fuel, and refreshments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-card">
+                <button type="button" class="faq-question-btn">
+                  <span>Where does this yacht depart from?</span>
+                  <svg class="faq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="faq-answer-pane">
+                  <div class="faq-answer-inner">
+                    By default, this vessel departs from Bolgatty Marina Yacht Club on Mulavukad Island, Kochi. Alternative boarding points such as Fort Kochi Customs Jetty, Willingdon Island, or Marari can be arranged upon prior coordination.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-card">
+                <button type="button" class="faq-question-btn">
+                  <span>Can we bring our own gourmet food and beverages?</span>
+                  <svg class="faq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="faq-answer-pane">
+                  <div class="faq-answer-inner">
+                    Yes! You are completely free to bring your own gourmet food, snacks, and personal beverages. The crew will gladly serve them in crystal glassware and chill bottles in wine coolers. Alternatively, book our live coastal chef packages.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-card">
+                <button type="button" class="faq-question-btn">
+                  <span>How do I lock in my booking on WhatsApp?</span>
+                  <svg class="faq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="faq-answer-pane">
+                  <div class="faq-answer-inner">
+                    Simply click the WhatsApp button on this page. Our Senior Charter Manager Anjali Menon confirms real-time calendar availability within minutes. A 30% advance deposit confirms your charter; the remaining balance is settled on the day of boarding.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: Sticky Rates Breakdown & Interactive Booking Widget -->
+        <div class="detail-sidebar-col">
+          <div class="detail-sidebar-wrap">
+
+            <!-- Rates Breakdown Card -->
+            <div class="rates-breakdown-card">
+              <div class="rates-card-header">
+                <div>
+                  <span class="rates-card-from">Starting From</span>
+                  <div class="rates-card-main-price" id="sidebar-hourly-price">₹25,000</div>
+                </div>
+                <span class="rates-card-unit">/ hour</span>
+              </div>
+
+              <!-- Rates Table -->
+              <div class="rates-table-list">
+                <div class="rate-table-row">
+                  <span class="rate-table-label">Hourly Charter</span>
+                  <span class="rate-table-val" id="rate-hourly-display">₹25,000 / hr</span>
+                </div>
+                <div class="rate-table-row">
+                  <span class="rate-table-label">Half Day (4 Hours)<span class="rate-badge-save">SAVE 5%</span></span>
+                  <span class="rate-table-val" id="rate-halfday-display">₹95,000</span>
+                </div>
+                <div class="rate-table-row">
+                  <span class="rate-table-label">Full Day (8 Hours)<span class="rate-badge-save">SAVE 15%</span></span>
+                  <span class="rate-table-val" id="rate-fullday-display">₹1,70,000</span>
+                </div>
+                <div class="rate-table-row">
+                  <span class="rate-table-label">Weekly Charter (7 Days)<span class="rate-badge-save">SAVE 25%</span></span>
+                  <span class="rate-table-val" id="rate-weekly-display">₹10,50,000</span>
+                </div>
+              </div>
+
+              <div class="rates-tax-note">
+                ✓ All taxes included · Marine fuel & certified captain included. No hidden service charges.
+              </div>
+
+              <!-- Live Interactive Booking Calculator -->
+              <div class="calc-widget-block">
+                <h4 class="calc-widget-title">Calculate & Book on WhatsApp</h4>
+
+                <div class="calc-field-row">
+                  <label class="calc-field-label" for="calc-date">Select Date</label>
+                  <input type="date" class="calc-date-input" id="calc-date" />
+                </div>
+
+                <div class="calc-field-row">
+                  <label class="calc-field-label" for="calc-duration">Charter Duration</label>
+                  <select class="calc-select-input" id="calc-duration">
+                    <option value="2">2 Hours (Fort Kochi Heritage)</option>
+                    <option value="3" selected>3 Hours (Vembanad Lagoon Cruise)</option>
+                    <option value="4">4 Hours (Half Day Anchorage)</option>
+                    <option value="6">6 Hours (Extended Coastal Cruise)</option>
+                    <option value="8">8 Hours (Full Day VIP Backwaters)</option>
+                  </select>
+                </div>
+
+                <div class="calc-field-row">
+                  <label class="calc-field-label" for="calc-guests">Guests</label>
+                  <select class="calc-select-input" id="calc-guests">
+                    <option value="2">2 Guests (Couple / Romantic)</option>
+                    <option value="4">4 Guests</option>
+                    <option value="6" selected>6 Guests</option>
+                    <option value="10">10 Guests</option>
+                    <option value="15">15 Guests (Full Capacity)</option>
+                  </select>
+                </div>
+
+                <div class="calc-field-row">
+                  <label class="calc-field-label">Optional Add-ons</label>
+                  <div class="calc-addons-mini-list">
+                    <label class="calc-addon-label">
+                      <input type="checkbox" class="sidebar-addon-check" value="Kerala Seafood Platter" data-price-inr="3500" />
+                      <span>Fresh Karimeen Platter (+<span class="addon-rate-inr" data-inr-price="3500">₹3,500</span>)</span>
+                    </label>
+                    <label class="calc-addon-label">
+                      <input type="checkbox" class="sidebar-addon-check" value="Speedboat / Jet Ski" data-price-inr="6000" />
+                      <span>Jet Ski / Speedboat (+<span class="addon-rate-inr" data-inr-price="6000">₹6,000</span>)</span>
+                    </label>
+                    <label class="calc-addon-label">
+                      <input type="checkbox" class="sidebar-addon-check" value="Private Chef Live BBQ" data-price-inr="8500" />
+                      <span>Private Chef Live BBQ (+<span class="addon-rate-inr" data-inr-price="8500">₹8,500</span>)</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Estimated Quote Banner -->
+                <div class="sidebar-quote-total-banner">
+                  <span class="sidebar-total-label">Estimated Quote:</span>
+                  <span class="sidebar-total-amount" id="sidebar-calc-total">₹75,000</span>
+                </div>
+
+                <!-- WhatsApp Booking Action -->
+                <button type="button" class="btn-sidebar-book-wa" id="btn-sidebar-whatsapp-submit">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path
+                      d="M20.52 3.48A11.87 11.87 0 0 0 12 0a11.94 11.94 0 0 0-10.3 17.94L0 24l6.24-1.63A11.93 11.93 0 0 0 12 23.94c6.63 0 12-5.37 12-12a11.87 11.87 0 0 0-3.48-8.46zM12 22.02a10.06 10.06 0 0 1-5.14-1.4l-.37-.22-3.7.97.99-3.61-.24-.37A10.05 10.05 0 1 1 22.05 12 10 10 0 0 1 12 22.02z" />
+                  </svg>
+                  <span>WhatsApp / Book Now</span>
+                </button>
+
+                <div class="sidebar-secondary-actions">
+                  <a href="tel:+919876543210" class="btn-sidebar-sub">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span>Call Concierge</span>
+                  </a>
+                  <a href="mailto:concierge@eliterentalskerala.com" class="btn-sidebar-sub">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <span>Email Quote</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Guarantees Card -->
+            <div class="sidebar-guarantee-card">
+              <div class="guarantee-item">
+                <svg class="guarantee-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Guaranteed Vessel Condition:</strong> Pristine showroom standard or 100% money back.</span>
+              </div>
+              <div class="guarantee-item">
+                <svg class="guarantee-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>No Hidden Booking Fees:</strong> Clear upfront pricing with crew, fuel and taxes.</span>
+              </div>
+              <div class="guarantee-item">
+                <svg class="guarantee-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Certified Safety Standards:</strong> Kerala Maritime Board surveyed with full gear.</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- You Might Also Like Section -->
+      <section style="margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--line);">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:1.5rem; flex-wrap:wrap; gap:1rem;">
+          <div>
+            <span class="category-badge-count">RECOMMENDED CHARTERS</span>
+            <h2 class="category-title">You Might Also Like</h2>
+          </div>
+          <a href="index.html#fleet-section" class="btn-pill-filter">View Full Fleet</a>
+        </div>
+        <div class="yacht-carousel-track" id="related-yachts-track" style="overflow-x:auto;">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       FULLSCREEN LIGHTBOX MODAL
+       ========================================================================== -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Photo Gallery">
+    <div class="lightbox-content-box">
+      <button type="button" class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Close Lightbox">&times;</button>
+      
+      <img src="" alt="Fullscreen Yacht View" class="lightbox-img" id="lightbox-img" />
+
+      <button type="button" class="lightbox-nav-btn prev" id="lightbox-prev-btn" aria-label="Previous Photo">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5l-5 5 5 5"/></svg>
+      </button>
+      <button type="button" class="lightbox-nav-btn next" id="lightbox-next-btn" aria-label="Next Photo">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 5l5 5-5 5"/></svg>
+      </button>
+
+      <div class="lightbox-caption-bar">
+        <span id="lightbox-counter">Photo 1 of 5</span>
+        <span id="lightbox-caption">Azura 65 Fort Kochi Motor Yacht</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Fixed Bottom Action Bar -->
+  <aside class="mobile-fixed-bottom-bar" aria-label="Mobile Quick Actions">
+    <a href="tel:+919876543210" class="mobile-bar-call-btn">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Call</span>
+    </a>
+    <button type="button" class="mobile-bar-wa-btn" id="mobile-bar-wa-btn">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+        <path
+          d="M20.52 3.48A11.87 11.87 0 0 0 12 0a11.94 11.94 0 0 0-10.3 17.94L0 24l6.24-1.63A11.93 11.93 0 0 0 12 23.94c6.63 0 12-5.37 12-12a11.87 11.87 0 0 0-3.48-8.46z" />
+      </svg>
+      <span id="mobile-bar-quote-text">WhatsApp Quote</span>
+    </button>
+  </aside>
+
+  <!-- Floating Actions (WhatsApp + Back to Top) -->
+  <div class="floating-actions-container">
+    <button type="button" class="btn-back-to-top" id="btn-back-to-top" aria-label="Back to Top">
+      <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 16V4M5 9l5-5 5 5"></path>
+      </svg>
+    </button>
+    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="btn-floating-wa" aria-label="Chat on WhatsApp">
+      <span class="floating-wa-ping" aria-hidden="true"></span>
+      <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor">
+        <path d="M27.3 4.66A15.9 15.9 0 0 0 16 0 15.9 15.9 0 0 0 2.24 24l-2.2 8.03 8.23-2.16A15.87 15.87 0 0 0 16 32c8.83 0 16-7.17 16-16A15.9 15.9 0 0 0 27.3 4.66zM16 29.34a13.34 13.34 0 0 1-6.8-1.86l-.49-.29-4.88 1.28 1.3-4.76-.32-.5A13.35 13.35 0 1 1 29.35 16 13.36 13.36 0 0 1 16 29.34zm7.3-9.98c-.4-.2-2.36-1.16-2.72-1.3-.37-.13-.63-.2-.9.2s-1.02 1.3-1.25 1.56c-.23.27-.46.3-.86.1a10.9 10.9 0 0 1-3.2-1.98 12.05 12.05 0 0 1-2.22-2.77c-.23-.4 0-.6.17-.8.17-.17.4-.46.6-.7.2-.23.26-.4.4-.66.13-.27.06-.5-.03-.7-.1-.2-.9-2.17-1.24-2.97-.33-.78-.66-.67-.9-.68l-.77-.02c-.27 0-.7.1-1.07.5-.37.4-1.4 1.37-1.4 3.35 0 1.97 1.44 3.87 1.64 4.14.2.27 2.83 4.33 6.87 6.07.96.42 1.7.67 2.28.86.96.3 1.83.26 2.52.16.77-.12 2.36-.97 2.7-1.9.32-.94.32-1.74.23-1.9-.1-.17-.36-.27-.76-.47z"></path>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Comprehensive Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <span class="footer-brand-title">Elite Rentals <span class="text-gold">Kerala</span></span>
+          <p class="footer-bio">
+            Kerala's premier luxury yacht charter company. Operating Category-A diamond certified yachts across Bolgatty Marina Kochi, Alleppey backwaters, and Vembanad Lake.
+          </p>
+          <div style="display:flex; flex-direction:column; gap:0.5rem; margin-top:0.5rem;">
+            <a href="tel:+919876543210" class="footer-contact-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 98765 43210</span>
+            </a>
+            <div class="footer-contact-row" style="color:#a1a1aa;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Bolgatty Marina Yacht Club, Mulavukad Island, Kochi, Kerala - 682504</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Fleet Classes</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html#comfort-class-sec" class="footer-link">Comfort Class Yachts</a></li>
+            <li><a href="index.html#comfort-plus-sec" class="footer-link">Heritage Teak Yachts</a></li>
+            <li><a href="index.html#comfort-plus-sec" class="footer-link">Vembanad Catamarans</a></li>
+            <li><a href="index.html#business-class-sec" class="footer-link">Flybridge Ocean Cruisers</a></li>
+            <li><a href="index.html#first-class-sec" class="footer-link">Arabian Sea Superyachts</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Destinations</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html#experience-section" class="footer-link">Fort Kochi Sunset Cruises</a></li>
+            <li><a href="index.html#experience-section" class="footer-link">Alleppey Backwater Expeditions</a></li>
+            <li><a href="index.html#experience-section" class="footer-link">Kumarakom Lake Escapes</a></li>
+            <li><a href="index.html#experience-section" class="footer-link">Marari Beach Ocean Sailing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Trust & Accreditations</h4>
+          <p style="font-size:0.82rem; color:#a1a1aa; line-height:1.45; margin-bottom:1rem;">
+            Rated 4.9/5 across Google and TripAdvisor. All vessels strictly surveyed and certified by Kerala Maritime Board.
+          </p>
+          <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+            <span style="background:rgba(255,255,255,0.08); padding:0.35rem 0.65rem; border-radius:6px; font-size:0.75rem; font-weight:700;">Kerala Tourism Accredited</span>
+            <span style="background:rgba(255,255,255,0.08); padding:0.35rem 0.65rem; border-radius:6px; font-size:0.75rem; font-weight:700;">Top Luxury Charter 2024-2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <span>&copy; 2026 Elite Rentals Kerala. All rights reserved. Certified Kerala Maritime Charter Operator.</span>
+        <div style="display:flex; gap:1.25rem;">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Charter</a>
+          <a href="#" class="footer-link">Safety Standards</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="yachts-data.js"></script>
+  <script src="app.js"></script>
+  <script src="detail.js"></script>
+</body>
+
+</html>

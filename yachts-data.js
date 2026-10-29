@@ -1,799 +1,314 @@
-/* Auto-generated yacht catalog for Dubai Yacht Booking */
+/* ==========================================================================
+   ELITE RENTALS KERALA - CURATED LUXURY FLEET DATASET
+   Kochi Marina, Alleppey Backwaters, Vembanad Lake & Arabian Sea
+   ========================================================================== */
+
 const YACHTS_DATA = [
+  // --- COMFORT CLASS ---
   {
     "id": "yacht-1",
-    "name": "Elite Diamond Madison A-48 Yacht",
+    "name": "Azura 65 Fort Kochi Motor Yacht",
     "category": "Comfort Class",
     "categorySlug": "comfort",
-    "length": "",
-    "guests": "1",
-    "guestCapacity": 1,
-    "priceAED": 900,
-    "photosCount": 30,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-madison-a-48-yacht/01-elite-diamond-madison-a-48-15m-exterior-cover.webp",
+    "length": "20 m",
+    "guests": "15 guests",
+    "guestCapacity": 15,
+    "priceINR": 25000,
+    "photosCount": 28,
+    "coverImage": "./assets/kochi-yacht-sunset.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-madison-a-48-yacht/01-elite-diamond-madison-a-48-15m-exterior-cover.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-madison-a-48-yacht/01-elite-diamond-madison-a-48-15m-exterior-cover.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-madison-a-48-yacht.mp4\\"
+      "./assets/kochi-yacht-sunset.jpg",
+      "./assets/kerala-yacht-salon.jpg",
+      "./assets/kerala-yacht-dining.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Captain & 3 Certified Crew Included",
+      "Unlimited Tender Coconut Water & Refreshments",
+      "Bose Surround Sound System",
+      "Teak Sun Deck with Lounge Cushions",
+      "Air Conditioned Saloon & En-suite Stateroom"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Madison A-48 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "Cruising from Bolgatty Marina and Fort Kochi. Enjoy breathtaking views of the ancient Chinese fishing nets, Willingdon Island, and the Arabian Sea sunset."
   },
   {
     "id": "yacht-2",
-    "name": "Elite Diamond Milano A-50 Yacht",
+    "name": "Marari Breeze 52 Luxury Flybridge",
     "category": "Comfort Class",
     "categorySlug": "comfort",
-    "length": "",
-    "guests": "1",
-    "guestCapacity": 1,
-    "priceAED": 1200,
-    "photosCount": 31,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-milano-a-50-yacht/01-elite-diamond-milano-a-50-16m-exterior-cover.webp",
+    "length": "16 m",
+    "guests": "12 guests",
+    "guestCapacity": 12,
+    "priceINR": 20000,
+    "photosCount": 24,
+    "coverImage": "./assets/marari-coastal-yacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-milano-a-50-yacht/01-elite-diamond-milano-a-50-16m-exterior-cover.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-milano-a-50-yacht/01-elite-diamond-milano-a-50-16m-exterior-cover.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-milano-a-50-yacht.mp4\\"
+      "./assets/marari-coastal-yacht.jpg",
+      "./assets/kerala-yacht-dining.jpg",
+      "./assets/kerala-yacht-salon.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Licensed Captain & Uniformed Crew",
+      "Chilled Tropical Fruits & Beverages",
+      "Flybridge Observation Deck",
+      "Bluetooth Audio Setup"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Milano A-50 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "Ideal for romantic escapes and family outings along the serene coastline and lagoons of Marari and Alappuzha."
   },
   {
     "id": "yacht-3",
-    "name": "Elite Diamond Milano A-55 Yacht",
+    "name": "Bolgatty Diamond 58 Marina Cruiser",
     "category": "Comfort Class",
     "categorySlug": "comfort",
-    "length": "",
-    "guests": "1",
-    "guestCapacity": 1,
-    "priceAED": 1400,
-    "photosCount": 32,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-milano-a-55-yacht/01-elite-diamond-milano-a-55-17m-exterior-cover.webp",
+    "length": "18 m",
+    "guests": "16 guests",
+    "guestCapacity": 16,
+    "priceINR": 28000,
+    "photosCount": 26,
+    "coverImage": "./assets/bolgatty-marina-yacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-milano-a-55-yacht/01-elite-diamond-milano-a-55-17m-exterior-cover.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-milano-a-55-yacht/01-elite-diamond-milano-a-55-17m-exterior-cover.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-milano-a-55-yacht.mp4\\"
+      "./assets/bolgatty-marina-yacht.jpg",
+      "./assets/kochi-yacht-sunset.jpg",
+      "./assets/kerala-yacht-salon.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Experienced Marine Crew",
+      "Spacious Bow Sunbed",
+      "Air Conditioned Master Suite",
+      "Complimentary Snacking Platter"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Milano A-55 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "Premium day cruiser for island hopping around Vypin, Bolgatty Palace, and the serene Kochi harbour waters."
   },
+
+  // --- COMFORT PLUS ---
   {
     "id": "yacht-4",
-    "name": "Elite Diamond Milano A-62 Yacht",
-    "category": "Comfort Class",
-    "categorySlug": "comfort",
-    "length": "",
-    "guests": "1",
-    "guestCapacity": 1,
-    "priceAED": 1800,
-    "photosCount": 31,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-milano-a-62-yacht/01-elite-diamond-milano-a-62-19m-exterior-cover.webp",
+    "name": "Alleppey Pearl Heritage Luxury Yacht",
+    "category": "Comfort Plus",
+    "categorySlug": "comfort-plus",
+    "length": "30 m",
+    "guests": "30 guests",
+    "guestCapacity": 30,
+    "priceINR": 45000,
+    "photosCount": 35,
+    "coverImage": "./assets/alleppey-heritage-yacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-milano-a-62-yacht/01-elite-diamond-milano-a-62-19m-exterior-cover.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-milano-a-62-yacht/01-elite-diamond-milano-a-62-19m-exterior-cover.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-milano-a-62-yacht.mp4\\"
+      "./assets/alleppey-heritage-yacht.jpg",
+      "./assets/kerala-yacht-dining.jpg",
+      "./assets/vembanad-catamaran.jpg",
+      "./assets/kerala-yacht-salon.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Presidential Glass Panoramic Saloon",
+      "Full Teak Promenade & Upper Sun Deck",
+      "Gourmet Kerala Coastal On-Board Dining",
+      "Dedicated Captain, Stewards & Private Chef",
+      "State-of-the-Art Sound & Mood Lighting"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Milano A-62 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "The crown jewel of Alleppey backwaters. Combines the historic elegance of Kerala teak architecture with world-class superyacht luxury."
   },
   {
     "id": "yacht-5",
-    "name": "Elite Diamond Steller 70 Yacht",
-    "category": "Comfort Class",
-    "categorySlug": "comfort",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 2500,
-    "photosCount": 30,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-steller-70-yacht/01-elite-diamond-stellar-70-22m-exterior-cover.webp",
+    "name": "Vembanad Pearl Kumarakom Catamaran",
+    "category": "Comfort Plus",
+    "categorySlug": "comfort-plus",
+    "length": "22 m",
+    "guests": "25 guests",
+    "guestCapacity": 25,
+    "priceINR": 40000,
+    "photosCount": 32,
+    "coverImage": "./assets/vembanad-catamaran.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-steller-70-yacht/01-elite-diamond-stellar-70-22m-exterior-cover.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-steller-70-yacht/01-elite-diamond-stellar-70-22m-exterior-cover.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-steller-70-yacht.mp4\\"
+      "./assets/vembanad-catamaran.jpg",
+      "./assets/kumarakom-sunset-yacht.jpg",
+      "./assets/kerala-yacht-dining.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Double-Hull Ultra Stable Cruising",
+      "Expansive Open-Air Foredeck Loungers",
+      "Panoramic Lake-View Salon",
+      "Fresh Karimeen Pollichathu Dining Option"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Steller 70 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "Glide through the tranquil waters of Vembanad Lake in Kumarakom with zero engine vibration and breathtaking 360-degree views."
   },
   {
     "id": "yacht-6",
-    "name": "Elite Diamond Lima 70 Yacht",
-    "category": "Comfort Class",
-    "categorySlug": "comfort",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 2000,
-    "photosCount": 37,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-lima-70-yacht/01-elite-diamond-lima-70-22m-exterior-cover.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-lima-70-yacht/01-elite-diamond-lima-70-22m-exterior-cover.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-lima-70-yacht/01-elite-diamond-lima-70-22m-exterior-cover.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-lima-70-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Lima 70 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-7",
-    "name": "Elite Diamond Sydney 85 Yacht",
+    "name": "Kumarakom Serenity 70 Flybridge",
     "category": "Comfort Plus",
     "categorySlug": "comfort-plus",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 4500,
-    "photosCount": 42,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-sydney-95-yacht/01-elite-diamond-sydney-26m-cover-yacht-and-burj-al-arab.webp",
+    "length": "22 m",
+    "guests": "22 guests",
+    "guestCapacity": 22,
+    "priceINR": 48000,
+    "photosCount": 30,
+    "coverImage": "./assets/kumarakom-sunset-yacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-sydney-95-yacht/01-elite-diamond-sydney-26m-cover-yacht-and-burj-al-arab.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-sydney-95-yacht/01-elite-diamond-sydney-26m-cover-yacht-and-burj-al-arab.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-sydney-95-yacht.mp4\\"
+      "./assets/kumarakom-sunset-yacht.jpg",
+      "./assets/kerala-yacht-salon.jpg",
+      "./assets/vembanad-catamaran.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Captain, Hostess & Chef Onboard",
+      "Dual Flybridge with Wet Bar & Cocktail Seating",
+      "Hydraulic Swim Platform",
+      "Acoustic Audio & Sunset Deck Lights"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Sydney 85 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "Crafted for grand celebrations, family milestones, and sunset cocktail parties on Vembanad Lake and Kumarakom waters."
+  },
+
+  // --- BUSINESS CLASS ---
+  {
+    "id": "yacht-7",
+    "name": "Mythos 90 Emerald Backwaters Yacht",
+    "category": "Business Class Yachting",
+    "categorySlug": "business",
+    "length": "28 m",
+    "guests": "35 guests",
+    "guestCapacity": 35,
+    "priceINR": 85000,
+    "photosCount": 40,
+    "coverImage": "./assets/hero-kerala-yacht.jpg",
+    "gallery": [
+      "./assets/hero-kerala-yacht.jpg",
+      "./assets/kerala-yacht-salon.jpg",
+      "./assets/kerala-yacht-dining.jpg",
+      "./assets/arabian-sea-superyacht.jpg"
+    ],
+    "features": [
+      "Top-Deck Jacuzzi with Lake Views",
+      "Full Commercial Galley & 5-Star Chef",
+      "5 Luxury Staterooms with En-suite Marble Bathrooms",
+      "High-Speed Satellite Internet (Starlink)",
+      "Dedicated Uniformed Crew of 6"
+    ],
+    "description": "An imposing 90ft tri-deck yacht designed for VIP guests, international travelers, and unforgettable private gatherings across Kerala."
   },
   {
     "id": "yacht-8",
-    "name": "Elite Predator Havana 95 Yacht",
-    "category": "Comfort Plus",
-    "categorySlug": "comfort-plus",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 4500,
-    "photosCount": 35,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-predator-havana-95-yacht/01-elite-predator-havana-29m-cover-stern-quarter.webp",
+    "name": "Marari Ocean Predator 85 Yacht",
+    "category": "Business Class Yachting",
+    "categorySlug": "business",
+    "length": "26 m",
+    "guests": "25 guests",
+    "guestCapacity": 25,
+    "priceINR": 95000,
+    "photosCount": 36,
+    "coverImage": "./assets/marari-coastal-yacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-predator-havana-95-yacht/01-elite-predator-havana-29m-cover-stern-quarter.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-predator-havana-95-yacht/01-elite-predator-havana-29m-cover-stern-quarter.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-predator-havana-95-yacht.mp4\\"
+      "./assets/marari-coastal-yacht.jpg",
+      "./assets/arabian-sea-superyacht.jpg",
+      "./assets/kerala-yacht-salon.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Speed Performance up to 34 Knots",
+      "Sleek Carbon & Titanium Styling",
+      "Dolby Atmos Interior Cinema",
+      "Seabob Water Scooters Available"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Predator Havana 95 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "High-octane luxury. Cruising out from Kochi Port along the Arabian Sea coastline to Marari Beach."
   },
   {
     "id": "yacht-9",
-    "name": "Elite Rivera X-70 Yacht",
-    "category": "Comfort Plus",
-    "categorySlug": "comfort-plus",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 4000,
-    "photosCount": 13,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-rivera-x-70-yacht/01-elite-rivera-x-70-22m-cover-bow-quarter.webp",
+    "name": "Bolgatty Royal Sovereign 95",
+    "category": "Business Class Yachting",
+    "categorySlug": "business",
+    "length": "29 m",
+    "guests": "40 guests",
+    "guestCapacity": 40,
+    "priceINR": 110000,
+    "photosCount": 38,
+    "coverImage": "./assets/bolgatty-marina-yacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-rivera-x-70-yacht/01-elite-rivera-x-70-22m-cover-bow-quarter.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/new-2024-elite-rivera-x-70-yacht/01-elite-rivera-x-70-22m-exterior-cover.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/new-2024-elite-rivera-x-70-yacht.mp4\\",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-rivera-x-70-yacht/01-elite-rivera-x-70-22m-cover-bow-quarter.webp\\"
+      "./assets/bolgatty-marina-yacht.jpg",
+      "./assets/kumarakom-sunset-yacht.jpg",
+      "./assets/kerala-yacht-dining.jpg",
+      "./assets/kerala-yacht-salon.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Dual Flybridge with Wet Bar & Grill",
+      "Full Air Conditioning with HEPA Filtration",
+      "Live Coastal Grill On Deck",
+      "VIP Chauffeur Pickup Included"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Rivera X-70 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "The ultimate party and corporate charter vessel with two expansive entertainer decks."
   },
+
+  // --- FIRST CLASS SUPERYACHTS ---
   {
     "id": "yacht-10",
-    "name": "Elite Diamond Serdano 95 Yacht",
-    "category": "Comfort Plus",
-    "categorySlug": "comfort-plus",
-    "length": "",
-    "guests": "3",
-    "guestCapacity": 3,
-    "priceAED": 4500,
-    "photosCount": 21,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-serdano-95-yacht/01-elite-diamond-serdano-95-30m-cover-yacht-at-sunset.webp",
+    "name": "Arabian Sea Azure 110 Superyacht",
+    "category": "First Class Yachting",
+    "categorySlug": "first-class",
+    "length": "34 m",
+    "guests": "45 guests",
+    "guestCapacity": 45,
+    "priceINR": 180000,
+    "photosCount": 45,
+    "coverImage": "./assets/arabian-sea-superyacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-serdano-95-yacht/01-elite-diamond-serdano-95-30m-cover-yacht-at-sunset.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-serdano-95-yacht/01-elite-diamond-serdano-95-30m-cover-yacht-at-sunset.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-serdano-95-yacht.mp4\\"
+      "./assets/arabian-sea-superyacht.jpg",
+      "./assets/hero-kerala-yacht.jpg",
+      "./assets/kerala-yacht-salon.jpg",
+      "./assets/kerala-yacht-dining.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Heated Freshwater Jacuzzi on Sky Lounge",
+      "Full Beam Master Stateroom with 180° Views",
+      "Professional Crew of 8 Including Executive Chef",
+      "Seadoo Jet Skis & Speedboat Tender Included",
+      "Luxury Chauffeur Transfer in Mercedes Maybach"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Serdano 95 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "Kerala's most prestigious coastal superyacht. Sailing between Kochi Marina, Marari Coast, and Kovalam with absolute royal treatment."
   },
   {
     "id": "yacht-11",
-    "name": "Elite Diamond Tokiyo 105 Yacht",
-    "category": "Comfort Plus",
-    "categorySlug": "comfort-plus",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 4500,
-    "photosCount": 27,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-tokiyo-105-yacht/01-elite-diamond-tokiyo-29m-cover-yacht-at-sunset.webp",
+    "name": "Kochi Grand Oceanfast 140 Mega Yacht",
+    "category": "First Class Yachting",
+    "categorySlug": "first-class",
+    "length": "42 m",
+    "guests": "60 guests",
+    "guestCapacity": 60,
+    "priceINR": 240000,
+    "photosCount": 50,
+    "coverImage": "./assets/arabian-sea-superyacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-tokiyo-105-yacht/01-elite-diamond-tokiyo-29m-cover-yacht-at-sunset.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-tokiyo-105-yacht/01-elite-diamond-tokiyo-29m-cover-yacht-at-sunset.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-tokiyo-105-yacht.mp4\\"
+      "./assets/arabian-sea-superyacht.jpg",
+      "./assets/bolgatty-marina-yacht.jpg",
+      "./assets/kerala-yacht-salon.jpg",
+      "./assets/kerala-yacht-dining.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "On-Board Swimming Pool & Heated Jacuzzi",
+      "Grand Ballroom & Banquet Saloon",
+      "Helipad Deck for Aerial Transfers",
+      "Michelin-Trained Culinary Team"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Tokiyo 105 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "A 140ft maritime marvel accommodating magnificent weddings, royal receptions, and international delegate banquets."
   },
+
+  // --- EXCLUSIVE & EVENTS ---
   {
     "id": "yacht-12",
-    "name": "Elite White Predator Pershing Yacht",
-    "category": "Comfort Plus",
-    "categorySlug": "comfort-plus",
-    "length": "",
-    "guests": "1",
-    "guestCapacity": 1,
-    "priceAED": 3500,
-    "photosCount": 21,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-white-pershing-yacht/01-elite-white-predator-5x-17m-cover-yacht-at-speed.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-white-pershing-yacht/01-elite-white-predator-5x-17m-cover-yacht-at-speed.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-white-pershing-yacht/01-elite-white-predator-5x-17m-cover-yacht-at-speed.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-white-pershing-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite White Predator Pershing Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-13",
-    "name": "Elite Predator Ferretti 670x Yacht",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 5000,
-    "photosCount": 39,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-predator-ferretti-670x-yacht/01-elite-predator-feretti-670x-22m-cover-aerial-stern-quarter.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-predator-ferretti-670x-yacht/01-elite-predator-feretti-670x-22m-cover-aerial-stern-quarter.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-predator-ferretti-670x-yacht/01-elite-predator-feretti-670x-22m-cover-aerial-stern-quarter.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-predator-ferretti-670x-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Predator Ferretti 670x Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-14",
-    "name": "Elite Gallixere Maydan 100 Yacht",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 6500,
-    "photosCount": 37,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/brand-new-elite-gallixere-maydan-100-yacht/01-elite-gallixere-maydan-26m-cover-yacht-at-sunset.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/brand-new-elite-gallixere-maydan-100-yacht/01-elite-gallixere-maydan-26m-cover-yacht-at-sunset.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/brand-new-elite-gallixere-maydan-100-yacht/01-elite-gallixere-maydan-26m-cover-yacht-at-sunset.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/brand-new-elite-gallixere-maydan-100-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Gallixere Maydan 100 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-15",
-    "name": "Elite Black Predator Sport 105 Yacht",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "3",
-    "guestCapacity": 3,
-    "priceAED": 8000,
-    "photosCount": 16,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-black-predator-sport-105-yacht/01-elite-black-predator-sport-105-32m-cover-stern-quarter.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-black-predator-sport-105-yacht/01-elite-black-predator-sport-105-32m-cover-stern-quarter.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-black-predator-sport-105-yacht/01-elite-black-predator-sport-105-32m-cover-stern-quarter.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-black-predator-sport-105-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Black Predator Sport 105 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-16",
-    "name": "Elite Diamond Apollo 100 Yacht",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 6500,
-    "photosCount": 32,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-apollo-100-yacht/01-elite-diamond-apollo-100-25m-cover-yacht-underway.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-apollo-100-yacht/01-elite-diamond-apollo-100-25m-cover-yacht-underway.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-apollo-100-yacht/01-elite-diamond-apollo-100-25m-cover-yacht-underway.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-apollo-100-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Apollo 100 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-17",
-    "name": "Elite Diamond Imperial 100 Yacht",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 6500,
-    "photosCount": 30,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-imperial-100-yacht/01-elite-diamond-imperial-100-23m-cover-yacht-and-skyline.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-imperial-100-yacht/01-elite-diamond-imperial-100-23m-cover-yacht-and-skyline.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-imperial-100-yacht/01-elite-diamond-imperial-100-23m-cover-yacht-and-skyline.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-imperial-100-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Imperial 100 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-18",
-    "name": "Elite Black Predator 105 Yacht",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 8000,
-    "photosCount": 28,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-black-predator-105-yacht/01-elite-black-predator-105-32m-cover-yacht-profile.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-black-predator-105-yacht/01-elite-black-predator-105-32m-cover-yacht-profile.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-black-predator-105-yacht/01-elite-black-predator-105-32m-cover-yacht-profile.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-black-predator-105-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Black Predator 105 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-19",
-    "name": "Brand New Elite Lamborghini 63 Yacht",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 10000,
-    "photosCount": 46,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/brand-new-1-of-63-lamborghini-yacht/01-elite-lamborghini-63-20m-cover-yacht-at-speed.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/brand-new-1-of-63-lamborghini-yacht/01-elite-lamborghini-63-20m-cover-yacht-at-speed.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/brand-new-1-of-63-lamborghini-yacht/01-elite-lamborghini-63-20m-cover-yacht-at-speed.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/brand-new-1-of-63-lamborghini-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Brand New Elite Lamborghini 63 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-20",
-    "name": "Elite Freedom Super Yacht 120",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "3",
-    "guestCapacity": 3,
-    "priceAED": 10000,
-    "photosCount": 41,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/elite-freedom/hero.webp?v=2",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/elite-freedom/hero.webp?v=2",
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/site/sunset.webp"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Freedom Super Yacht 120. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-21",
-    "name": "Elite Diamond Emperor 140 Yacht",
-    "category": "First Class Yachting",
-    "categorySlug": "first-class",
-    "length": "",
-    "guests": "4",
-    "guestCapacity": 4,
-    "priceAED": 18000,
-    "photosCount": 40,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-diamond-emperor-140m-yacht/01-elite-diamond-emperor-140-40m-cruising-by-dubai-skyline.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-diamond-emperor-140m-yacht/01-elite-diamond-emperor-140-40m-cruising-by-dubai-skyline.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-diamond-emperor-140m-yacht/01-elite-diamond-emperor-140-40m-cruising-by-dubai-skyline.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-diamond-emperor-140m-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Diamond Emperor 140 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-22",
-    "name": "Elite Ocean Fast X-165 Mega Pool Yacht",
-    "category": "First Class Yachting",
-    "categorySlug": "first-class",
-    "length": "",
-    "guests": "5",
-    "guestCapacity": 5,
-    "priceAED": 20000,
-    "photosCount": 41,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-ocean-fast-x-165-mega-pool-yacht/01-elite-ocean-fast-x-165-mega-pool-50m-cruising-in-dubai-marina.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-ocean-fast-x-165-mega-pool-yacht/01-elite-ocean-fast-x-165-mega-pool-50m-cruising-in-dubai-marina.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-ocean-fast-x-165-mega-pool-yacht/01-elite-ocean-fast-x-165-mega-pool-50m-cruising-in-dubai-marina.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-ocean-fast-x-165-mega-pool-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Ocean Fast X-165 Mega Pool Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-23",
-    "name": "Elite Guard Commandor 160 Yacht",
-    "category": "First Class Yachting",
-    "categorySlug": "first-class",
-    "length": "",
-    "guests": "4",
-    "guestCapacity": 4,
-    "priceAED": 18000,
-    "photosCount": 47,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/brand-new-elite-guard-commandor-160-yacht/01-elite-guard-commandor-160-42m-gold-yacht-profile.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/brand-new-elite-guard-commandor-160-yacht/01-elite-guard-commandor-160-42m-gold-yacht-profile.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/brand-new-elite-guard-commandor-160-yacht/01-elite-guard-commandor-160-42m-gold-yacht-profile.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/brand-new-elite-guard-commandor-160-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Guard Commandor 160 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-24",
-    "name": "Elite Dxb Montclaire X500 Yacht",
-    "category": "First Class Yachting",
-    "categorySlug": "first-class",
-    "length": "",
-    "guests": "3",
-    "guestCapacity": 3,
-    "priceAED": 18000,
-    "photosCount": 41,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-dxb-montclaire-x500-yacht/01-elite-dxb-montclaire-x500-35m-aerial-yacht-profile.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-dxb-montclaire-x500-yacht/01-elite-dxb-montclaire-x500-35m-aerial-yacht-profile.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-dxb-montclaire-x500-yacht/01-elite-dxb-montclaire-x500-35m-aerial-yacht-profile.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-dxb-montclaire-x500-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Dxb Montclaire X500 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-26",
-    "name": "Elite Opal Rivera 100 Yacht",
-    "category": "Comfort Plus",
-    "categorySlug": "comfort-plus",
-    "length": "",
-    "guests": "3",
-    "guestCapacity": 3,
-    "priceAED": 8000,
-    "photosCount": 13,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-opal-rivera-100-yacht/01-elite-opal-rivera-100-31m-cover-yacht-with-water-slide.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-opal-rivera-100-yacht/01-elite-opal-rivera-100-31m-cover-yacht-with-water-slide.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-opal-rivera-100-yacht/01-elite-opal-rivera-100-31m-cover-yacht-with-water-slide.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-opal-rivera-100-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Opal Rivera 100 Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-27",
-    "name": "Elite X2 Benetti Triple Deck 120 Yacht (W/ Jacuzzi)",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "3",
-    "guestCapacity": 3,
-    "priceAED": 14000,
-    "photosCount": 22,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-benetti-triple-deck-120-super-yacht/01-elite-triple-deck-x1-120-37m-cover-yacht-and-skyline.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-benetti-triple-deck-120-super-yacht/01-elite-triple-deck-x1-120-37m-cover-yacht-and-skyline.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-benetti-triple-deck-120-super-yacht/01-elite-triple-deck-x1-120-37m-cover-yacht-and-skyline.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-benetti-triple-deck-120-super-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite X2 Benetti Triple Deck 120 Yacht (W/ Jacuzzi). Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-28",
-    "name": "Elite Rivera X120 Triple Deck Super Yacht",
-    "category": "Business Class Yachting",
-    "categorySlug": "business",
-    "length": "",
-    "guests": "4",
-    "guestCapacity": 4,
-    "priceAED": 18000,
-    "photosCount": 26,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-rivera-x120-triple-deck-super-yacht/01-elite-rivera-x120-triple-deck-43m-cover-aerial-yacht-profile.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-rivera-x120-triple-deck-super-yacht/01-elite-rivera-x120-triple-deck-43m-cover-aerial-yacht-profile.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-rivera-x120-triple-deck-super-yacht/01-elite-rivera-x120-triple-deck-43m-cover-aerial-yacht-profile.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-rivera-x120-triple-deck-super-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Rivera X120 Triple Deck Super Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-30",
-    "name": "Elite Opulent 50M Superyacht Yacht",
-    "category": "First Class Yachting",
-    "categorySlug": "first-class",
-    "length": "",
-    "guests": "5",
-    "guestCapacity": 5,
-    "priceAED": 25000,
-    "photosCount": 15,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/yachts/elite-opulent-50m-superyacht-yacht/01-elite-opulent-oasis-180-50m-yacht-beside-ain-dubai.webp",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/yachts/elite-opulent-50m-superyacht-yacht/01-elite-opulent-oasis-180-50m-yacht-beside-ain-dubai.webp",
-      "https://media.dubaiyachtbooking.com/images/yachts/elite-opulent-50m-superyacht-yacht/01-elite-opulent-oasis-180-50m-yacht-beside-ain-dubai.webp\\",
-      "https://media.dubaiyachtbooking.com/videos/yachts/elite-opulent-50m-superyacht-yacht.mp4\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Opulent 50M Superyacht Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-31",
-    "name": "Elite Aria Yacht",
+    "name": "Vembanad Sovereign 160 Grand Banquet Yacht",
     "category": "Extra",
     "categorySlug": "exclusive",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 8000,
-    "photosCount": 12,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/pdfx_elite-aria-50m-tripple-deck---super-yacht_00.jpeg",
+    "length": "48 m",
+    "guests": "100 guests",
+    "guestCapacity": 100,
+    "priceINR": 320000,
+    "photosCount": 42,
+    "coverImage": "./assets/alleppey-heritage-yacht.jpg",
     "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/pdfx_elite-aria-50m-tripple-deck---super-yacht_00.jpeg",
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/site/sunset.webp"
+      "./assets/alleppey-heritage-yacht.jpg",
+      "./assets/kumarakom-sunset-yacht.jpg",
+      "./assets/vembanad-catamaran.jpg",
+      "./assets/kerala-yacht-dining.jpg"
     ],
     "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
+      "Capacity for up to 100 Celebratory Guests",
+      "Multi-Tier Open Air Sun Decks",
+      "Custom Audio-Visual & Stage Rigging for Live Concerts",
+      "Full Service Bar & Buffet Stations"
     ],
-    "description": "Experience luxury yacht chartering aboard the Elite Aria Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-32",
-    "name": "Elite Azarro Yacht",
-    "category": "Extra",
-    "categorySlug": "exclusive",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 6000,
-    "photosCount": 12,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/pdfx_elite-azarro-yacht_00.jpeg",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/pdfx_elite-azarro-yacht_00.jpeg",
-      "https://media.dubaiyachtbooking.com/images/pdfx_elite-azarro-yacht_00.jpeg\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Azarro Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-33",
-    "name": "Elite Destiny Yacht",
-    "category": "Extra",
-    "categorySlug": "exclusive",
-    "length": "",
-    "guests": "2",
-    "guestCapacity": 2,
-    "priceAED": 12000,
-    "photosCount": 11,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/pdfx_elite-destiny-yacht_00.jpeg",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/pdfx_elite-destiny-yacht_00.jpeg",
-      "https://media.dubaiyachtbooking.com/images/pdfx_elite-destiny-yacht_00.jpeg\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Destiny Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
-  },
-  {
-    "id": "yacht-34",
-    "name": "Elite Ethos Yacht",
-    "category": "Extra",
-    "categorySlug": "exclusive",
-    "length": "",
-    "guests": "6",
-    "guestCapacity": 6,
-    "priceAED": 20000,
-    "photosCount": 12,
-    "coverImage": "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1920,format=auto,quality=75/images/pdfx_elite-ethos-yacht_00.jpeg",
-    "gallery": [
-      "https://media.dubaiyachtbooking.com/cdn-cgi/image/width=1080,format=auto,quality=75/images/pdfx_elite-ethos-yacht_00.jpeg",
-      "https://media.dubaiyachtbooking.com/images/pdfx_elite-ethos-yacht_00.jpeg\\"
-    ],
-    "features": [
-      "Captain & Crew Included",
-      "Unlimited Soft Drinks & Ice",
-      "State-of-the-art Sound System",
-      "Spacious Sun Deck & Flybridge",
-      "Air Conditioned Saloon & Cabins"
-    ],
-    "description": "Experience luxury yacht chartering aboard the Elite Ethos Yacht. Featuring top-tier amenities, professional licensed crew, and an exquisite itinerary along Dubai Marina, Ain Dubai, and Palm Jumeirah."
+    "description": "Kerala's largest luxury charter vessel. Tailor-made for destination weddings, luxury corporate retreats, and film shoot charters."
   }
 ];

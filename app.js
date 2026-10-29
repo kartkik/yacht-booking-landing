@@ -1,20 +1,21 @@
 /* ==========================================================================
-   ELITE RENTALS DUBAI - APPLICATION JAVASCRIPT
+   ELITE RENTALS KERALA - APPLICATION JAVASCRIPT
    Interactivity, Currency Conversion, Live Booking Calculator, Search & Filters
    ========================================================================== */
 
 (function () {
   'use strict';
 
-  // --- Currency Configuration ---
+  // --- Currency Configuration (Base: INR ₹) ---
   const CURRENCY_RATES = {
-    AED: { symbol: 'AED', rate: 1.0, format: (val) => `AED ${Math.round(val).toLocaleString()}` },
-    USD: { symbol: '$', rate: 0.2723, format: (val) => `$${Math.round(val * 0.2723).toLocaleString()}` },
-    EUR: { symbol: '€', rate: 0.2520, format: (val) => `€${Math.round(val * 0.2520).toLocaleString()}` },
-    GBP: { symbol: '£', rate: 0.2155, format: (val) => `£${Math.round(val * 0.2155).toLocaleString()}` }
+    INR: { symbol: '₹', rate: 1.0, format: (val) => `₹${Math.round(val).toLocaleString('en-IN')}` },
+    USD: { symbol: '$', rate: 0.012, format: (val) => `$${Math.round(val * 0.012).toLocaleString()}` },
+    AED: { symbol: 'AED', rate: 0.044, format: (val) => `AED ${Math.round(val * 0.044).toLocaleString()}` },
+    EUR: { symbol: '€', rate: 0.011, format: (val) => `€${Math.round(val * 0.011).toLocaleString()}` },
+    GBP: { symbol: '£', rate: 0.0094, format: (val) => `£${Math.round(val * 0.0094).toLocaleString()}` }
   };
 
-  let currentCurrency = localStorage.getItem('erd_currency') || 'AED';
+  let currentCurrency = localStorage.getItem('erk_currency') || 'INR';
   let activeYachtForModal = null;
   let currentGuestCount = 2;
 
@@ -47,6 +48,26 @@
   function initCurrencySwitcher() {
     if (currencyDisplay) currencyDisplay.textContent = currentCurrency;
 
+    function applyCurrency(curr) {
+      if (!curr || !CURRENCY_RATES[curr]) return;
+      currentCurrency = curr;
+      localStorage.setItem('erk_currency', currentCurrency);
+      if (currencyDisplay) currencyDisplay.textContent = currentCurrency;
+
+      // Update desktop menu
+      document.querySelectorAll('.currency-option').forEach(o => {
+        o.classList.toggle('active', o.getAttribute('data-curr') === curr);
+      });
+
+      // Update mobile pills
+      document.querySelectorAll('.mobile-curr-pill').forEach(p => {
+        p.classList.toggle('active', p.getAttribute('data-curr') === curr);
+      });
+
+      if (currencyMenu) currencyMenu.classList.remove('open');
+      updateAllDisplayedPrices();
+    }
+
     if (currencyBtn && currencyMenu) {
       currencyBtn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -62,29 +83,44 @@
       const options = currencyMenu.querySelectorAll('.currency-option');
       options.forEach((opt) => {
         opt.addEventListener('click', () => {
-          const selected = opt.getAttribute('data-curr');
-          if (selected && CURRENCY_RATES[selected]) {
-            currentCurrency = selected;
-            localStorage.setItem('erd_currency', currentCurrency);
-            if (currencyDisplay) currencyDisplay.textContent = currentCurrency;
-            currencyMenu.classList.remove('open');
-            options.forEach(o => o.classList.toggle('active', o === opt));
-            updateAllDisplayedPrices();
-          }
+          applyCurrency(opt.getAttribute('data-curr'));
         });
+      });
+    }
+
+    // Mobile drawer currency pills
+    document.querySelectorAll('.mobile-curr-pill').forEach((pill) => {
+      pill.addEventListener('click', () => {
+        applyCurrency(pill.getAttribute('data-curr'));
+      });
+    });
+
+    // Back to top button
+    const backToTopBtn = document.getElementById('btn-back-to-top');
+    if (backToTopBtn) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 400) {
+          backToTopBtn.classList.add('visible');
+        } else {
+          backToTopBtn.classList.remove('visible');
+        }
+      }, { passive: true });
+
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     }
   }
 
-  function formatPrice(aedAmount) {
-    const config = CURRENCY_RATES[currentCurrency] || CURRENCY_RATES.AED;
-    return config.format(aedAmount);
+  function formatPrice(inrAmount) {
+    const config = CURRENCY_RATES[currentCurrency] || CURRENCY_RATES.INR;
+    return config.format(inrAmount);
   }
 
   function updateAllDisplayedPrices() {
-    document.querySelectorAll('[data-aed-price]').forEach((el) => {
-      const aed = parseFloat(el.getAttribute('data-aed-price')) || 0;
-      el.textContent = formatPrice(aed);
+    document.querySelectorAll('[data-inr-price], [data-aed-price]').forEach((el) => {
+      const inr = parseFloat(el.getAttribute('data-inr-price') || el.getAttribute('data-aed-price')) || 0;
+      el.textContent = formatPrice(inr);
     });
 
     if (activeYachtForModal) {
@@ -139,15 +175,15 @@
         let matchedCount = 0;
 
         allCards.forEach((card) => {
-          const cardPrice = parseInt(card.getAttribute('data-price-aed'), 10) || 0;
+          const cardPrice = parseInt(card.getAttribute('data-price-inr') || card.getAttribute('data-price-aed'), 10) || 0;
           const cardCap = parseInt(card.getAttribute('data-guest-cap'), 10) || 100;
           
           let matchesPrice = true;
-          if (targetPriceVal === 1) matchesPrice = cardPrice < 1000;
-          else if (targetPriceVal === 2) matchesPrice = cardPrice >= 1000 && cardPrice <= 2500;
-          else if (targetPriceVal === 3) matchesPrice = cardPrice > 2500 && cardPrice <= 5000;
-          else if (targetPriceVal === 4) matchesPrice = cardPrice > 5000 && cardPrice <= 10000;
-          else if (targetPriceVal === 5) matchesPrice = cardPrice > 10000;
+          if (targetPriceVal === 1) matchesPrice = cardPrice < 25000;
+          else if (targetPriceVal === 2) matchesPrice = cardPrice >= 25000 && cardPrice <= 50000;
+          else if (targetPriceVal === 3) matchesPrice = cardPrice > 50000 && cardPrice <= 100000;
+          else if (targetPriceVal === 4) matchesPrice = cardPrice > 100000 && cardPrice <= 200000;
+          else if (targetPriceVal === 5) matchesPrice = cardPrice > 200000;
 
           const matchesGuests = cardCap >= currentGuestCount;
 
@@ -203,7 +239,9 @@
     const card = document.createElement('div');
     card.className = 'yacht-card';
     card.setAttribute('data-id', yacht.id);
-    card.setAttribute('data-price-aed', yacht.priceAED);
+    const price = yacht.priceINR || yacht.priceAED || 25000;
+    card.setAttribute('data-price-inr', price);
+    card.setAttribute('data-price-aed', price);
     card.setAttribute('data-guest-cap', yacht.guestCapacity);
 
     let currentPhotoIdx = 0;
@@ -233,7 +271,7 @@
 
       <div class="yacht-info-wrap">
         <div class="yacht-name-row">
-          <h4 class="yacht-card-title">${yacht.name}</h4>
+          <h4 class="yacht-card-title"><a href="yacht-detail.html?id=${yacht.id}" style="color:inherit; text-decoration:none;">${yacht.name}</a></h4>
           <span class="yacht-card-cat">${yacht.category}</span>
         </div>
         <p class="yacht-card-specs">${yacht.length} · ${yacht.guests}</p>
@@ -241,10 +279,10 @@
         <div class="yacht-card-price-row">
           <span class="yacht-price-text">
             <span class="from-label">from</span> 
-            <span class="yacht-price-val" data-aed-price="${yacht.priceAED}">${formatPrice(yacht.priceAED)}</span> 
+            <span class="yacht-price-val" data-inr-price="${price}">${formatPrice(price)}</span> 
             <small style="color:var(--gray);font-weight:600">/ hour</small>
           </span>
-          <span class="yacht-vat-note">· VAT excluded</span>
+          <span class="yacht-vat-note">· All taxes included</span>
         </div>
 
         <div class="yacht-card-actions">
@@ -252,9 +290,9 @@
             <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M20.52 3.48A11.87 11.87 0 0 0 12 0a11.94 11.94 0 0 0-10.3 17.94L0 24l6.24-1.63A11.93 11.93 0 0 0 12 23.94c6.63 0 12-5.37 12-12a11.87 11.87 0 0 0-3.48-8.46zM12 22.02a10.06 10.06 0 0 1-5.14-1.4l-.37-.22-3.7.97.99-3.61-.24-.37A10.05 10.05 0 1 1 22.05 12 10 10 0 0 1 12 22.02z"/></svg>
             Quick Quote
           </button>
-          <button type="button" class="btn-card-details" data-details-btn="${yacht.id}">
+          <a href="yacht-detail.html?id=${yacht.id}" class="btn-card-details" style="text-align:center; text-decoration:none;">
             Details
-          </button>
+          </a>
         </div>
       </div>
     `;
@@ -295,7 +333,7 @@
         if (navigator.share) {
           navigator.share({
             title: yacht.name,
-            text: `Check out ${yacht.name} on Elite Rentals Dubai!`,
+            text: `Check out ${yacht.name} on Elite Rentals Kerala!`,
             url: window.location.href
           }).catch(() => {});
         } else {
@@ -305,15 +343,11 @@
       });
     }
 
-    // Modal buttons
+    // Quick Quote button opens modal
     const quoteBtn = card.querySelector(`[data-quote-btn="${yacht.id}"]`);
-    const detailsBtn = card.querySelector(`[data-details-btn="${yacht.id}"]`);
-    
-    [quoteBtn, detailsBtn].forEach(b => {
-      if (b) {
-        b.addEventListener('click', () => openBookingModal(yacht));
-      }
-    });
+    if (quoteBtn) {
+      quoteBtn.addEventListener('click', () => openBookingModal(yacht));
+    }
 
     return card;
   }
@@ -428,10 +462,10 @@
         const addonText = selectedAddons.length > 0 ? ` with ${selectedAddons.join(', ')}` : '';
 
         const msg = encodeURIComponent(
-          `Hi Elite Rentals Dubai! I'd like to book ${activeYachtForModal.name} for ${hours} hours on ${date} for ${guests} guests${addonText}. Estimated Quote: ${totalText}. Is this yacht available?`
+          `Hi Elite Rentals Kerala! I'd like to book ${activeYachtForModal.name} for ${hours} hours on ${date} for ${guests} guests${addonText}. Estimated Quote: ${totalText}. Is this yacht available?`
         );
 
-        window.open(`https://wa.me/971504258131?text=${msg}`, '_blank');
+        window.open(`https://wa.me/919876543210?text=${msg}`, '_blank');
       });
     }
   }
@@ -442,18 +476,19 @@
     const durInput = document.getElementById('modal-charter-duration');
     const hours = durInput ? parseInt(durInput.value, 10) || 1 : 1;
 
-    let baseRateAED = activeYachtForModal.priceAED * hours;
+    const hourlyRate = activeYachtForModal.priceINR || activeYachtForModal.priceAED || 25000;
+    let baseRate = hourlyRate * hours;
 
     // Addons
-    let addonsAED = 0;
+    let addons = 0;
     document.querySelectorAll('.addon-check:checked').forEach((ch) => {
-      addonsAED += parseInt(ch.getAttribute('data-price-aed'), 10) || 0;
+      addons += parseInt(ch.getAttribute('data-price-inr') || ch.getAttribute('data-price-aed'), 10) || 0;
     });
 
-    const totalAED = baseRateAED + addonsAED;
+    const total = baseRate + addons;
     const totalEl = document.getElementById('modal-calc-total');
     if (totalEl) {
-      totalEl.textContent = formatPrice(totalAED);
+      totalEl.textContent = formatPrice(total);
     }
   }
 
